@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: concrete-ai
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port $PORT --server.headless true --server.enableCORS false
-    plan: free
