@@ -1,0 +1,5 @@
+{
+  "entrypoint": "app.py",
+  "python_version": "3.9",
+  "visibility": "public"
+}
